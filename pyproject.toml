@@ -1,0 +1,22 @@
+[project]
+name = "bldc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "control>=0.10.2",
+    "ipympl>=0.10.0",
+    "mediapy>=1.2.6",
+    "multiprocess>=0.70.19",
+    "nbformat>=5.11.1",
+    "plotly>=7.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]
+
+[tool.uv]
+link-mode = "copy"
